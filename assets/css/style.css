@@ -1,0 +1,147 @@
+/* -------------- */
+/* RESET */
+/* -------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------- */
+/* GENERAL RULES */
+/* -------------- */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #efefef;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+section {
+  background-color: white;
+  padding: 60px 30px;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: #393c6c;
+  margin-bottom: 8px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f3735f;
+  margin: 60px 0 20px 0;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #393c6c;
+  line-height: 22px;
+}
+
+/* -------------- */
+/* HEADER */
+/* -------------- */
+header {
+  border-bottom: 1px solid #f3735f;
+  height: 80px;
+  background-color: #fff;
+}
+
+header img {
+  width: 200px;
+}
+
+/* -------------- */
+/* MAIN */
+/* -------------- */
+main {
+  margin-top: 60px;
+  border-radius: 20px;
+}
+main .container {
+  border-radius: 10px;
+}
+
+/* TITLE PART*/
+.baseline,
+.time {
+  margin: auto;
+  text-align: center;
+}
+
+.baseline {
+  font-size: 12px;
+  color: #6c6c6c;
+}
+
+.time {
+  width: 400px;
+  font-size: 22px;
+  color: white;
+  background-color: #8a98b1;
+  border-radius: 10px;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+/* IMAGES PART*/
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.images img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* IINGREDIENTS*/
+.ingredients {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.ingredients li {
+  line-height: 22px;
+  color: #6c6c6c;
+}
+
+.ingredients ul {
+  margin-left: 20px;
+}
+/* PREPARATION*/
+.preparation {
+  padding-top: 0;
+}
+
+/* -------------- */
+/* FOOTER */
+/* -------------- */
+footer {
+  height: 135px;
+}
